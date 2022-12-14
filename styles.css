@@ -1,0 +1,70 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin : 1em;
+}
+
+.story-container {
+    display: flex;
+    flex-direction: row;
+    margin : 1em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    height: 450px;
+    width: 500px;
+    justify-content: center;
+}
+
+.story-item {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.sketch-item {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure {
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+  }
+  
+  figcaption {
+    background-color: lightblue;
+    color: black;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    width: 40vw;
+  }
